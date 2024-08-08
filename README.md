@@ -100,7 +100,7 @@ plt.show()
 ```
 ### Results
 
-![](3_Project\images\Skills_Trend_for_Data_analyst.png)
+![Skills_Trend_for_Data_analyst](3_Project\images\Skills_Trend_for_Data_analyst.png)
 *Bar graph visualizing the trending top skills for data analysts in the US in 2023.*
 
 ### Insights 
