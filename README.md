@@ -56,7 +56,7 @@ Each Jupyter notebook for this project aimed at investigating specific aspects o
 To find the most demanded skills for the top 3 most popular data roles. I filtered out those positions by which ones were the most popular, and got the top 5 skills for these top 3 roles. This query highlights the most popular job titles and their top skills, showing which skills i should pay attention to depending on the role i'm targeting.
 
 view my notebook with detailed steps here: 
-[2_Skills_Counting.ipynb](3_Project\2_Skills_Counting.ipynb)
+[2_Skills_Counting.ipynb](3_Project/2_Skills_Counting.ipynb)
 
 
 ### Visualize data
@@ -74,7 +74,7 @@ plt.show()
 
 ### Results 
 
-![skills_demand_all_roles](3_Project\images\skills_demand_all_roles.PNG) 
+![skills_demand_all_roles](3_Project/images/skills_demand_all_roles.PNG) 
 *Bar graph visualizing the salary for the top 3 data roles and their top 5 skills associated with each.*
 
 ### Insights 
@@ -100,7 +100,7 @@ plt.show()
 ```
 ### Results
 
-![Skills_Trend_for_Data_analyst](3_Project\images\Skills_Trend_for_Data_analyst.PNG)
+![Skills_Trend_for_Data_analyst](3_Project/images/Skills_Trend_for_Data_analyst.PNG)
 *Bar graph visualizing the trending top skills for data analysts in the US in 2023.*
 
 ### Insights 
@@ -122,7 +122,7 @@ plt.show()
 ```
 #### Results 
 
-![Salary_analysis](3_Project\images\Salary_analysis.PNG)
+![Salary_analysis](3_Project/images/Salary_analysis.PNG)
 *Box plot visualizing the salary distributions for the top 6 data jobs titles.*
 
 ### Insights
@@ -149,7 +149,7 @@ plt.show()
 ```
 #### Results
 Here's the breakdown of the highest-paid & most in-demand skills for data analysts in the US: 
-![Highest_paid_and_indemand_skills](3_Project\images\Highest_paid_and_indemand_skills.PNG)
+![Highest_paid_and_indemand_skills](3_Project/images/Highest_paid_and_indemand_skills.PNG)
 *Two separate bar graphs visualizing the highest paid skills and most in-demand skills for data analysts in the US*
 ### Insights
 - The top graph shows specialized technical skills like `dplyr`, `Bitbucket`, and `Gitlab` are associated with higher salaries, some reaching up to $200K, suggesting that advanced technical proficiency can increase earning potential.
@@ -170,7 +170,7 @@ plt.scatter(df_DA_skills_high_demand['skill_percent'], df_DA_skills_high_demand[
 plt.show()
 ```
 #### Results 
-![optimal_Skills_not_coloured ](3_Project\images\optimal_Skills_not_coloured.PNG)
+![optimal_Skills_not_coloured ](3_Project/images/optimal_Skills_not_coloured.PNG)
 *A scatter plot visualizing the most optimal skills (high paying & high demand)for data analysts in the US.* 
 
 #### Insights
@@ -199,7 +199,7 @@ scatter = sns.scatterplot(
 plt.show()
 ```
 #### Results 
-![Optimal_Skill ](3_Project\images\Optimal_Skill.PNG)
+![Optimal_Skill ](3_Project/images/Optimal_Skill.PNG)
 *A scatter plot visualizing the most optimal skills (high paying & high demand) for data analysts in the US with color labels for technology.* 
 
 #### Insights
